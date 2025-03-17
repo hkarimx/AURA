@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>AURA</title>
+    <link rel="stylesheet" href="css/aura.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header / Navigatie -->
+<header>
+    <nav class="navbar">
+        <div class="logo">AURA</div>
+        <ul class="nav-links">
+            <li><a href="#over-ons">Over ons</a></li>
+            <li><a href="#afspraak">Afspraak maken</a></li>
+            <li><a href="#prijzen">Prijzen</a></li>
+        </ul>
+        <!-- Eventueel een knop -->
+        <a href="#afspraak" class="btn-nav">Maak Afspraak</a>
+    </nav>
+
+    <!-- Hero sectie -->
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Duurzaam. Luxe. Natuurlijk.</h1>
+            <p>Bij AURA combineren we hoogwaardige haarverzorging met een duurzame, luxe en natuurlijke beleving. Onze producten geven je haar de beste zorg en dragen bij aan een gezond milieu.</p>
+        </div>
+    </div>
+</header>
+
+<!-- Welkom sectie -->
+<section class="welcome-section">
+    <div class="welcome-content">
+        <h2>Welkom bij AURA</h2>
+        <p>
+            Bij AURA combineren we stijl, kwaliteit en welzijn. In onze salon staat persoonlijke aandacht centraal en ervaar je hoogwaardige haarbehandelingen met een natuurlijke touch.
+        </p>
+        <a href="#afspraak" class="btn-primary">Maak een Afspraak</a>
+    </div>
+    <!-- Vervang door je eigen afbeelding -->
+    <div class="welcome-image">
+        <img src="images/welcome-image.jpg" alt="Welkom bij AURA">
+    </div>
+</section>
+
+<!-- Waarom AURA sectie -->
+<section class="why-aura" id="over-ons">
+    <h2>Waarom AURA?</h2>
+    <div class="why-cards">
+        <div class="card">
+            <h3>Duurzame Haarverzorging</h3>
+            <p>Bij AURA gebruiken we duurzame, milieuvriendelijke producten. We geloven dat een gezonde wereld begint bij jezelf.</p>
+        </div>
+        <div class="card">
+            <h3>Luxe Ontspanning</h3>
+            <p>Laat je verwennen in onze moderne en rustgevende salon. Een bezoek aan AURA is meer dan alleen een knipbeurt.</p>
+        </div>
+        <div class="card">
+            <h3>Persoonlijk Advies</h3>
+            <p>Onze stylisten staan je bij met deskundig en persoonlijk advies, zodat je de perfecte look en verzorging krijgt.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Prijzen sectie (optioneel) -->
+<section class="pricing" id="prijzen">
+    <h2>Prijzen</h2>
+    <ul class="price-list">
+        <li>Knippen: €30</li>
+        <li>Kleuren: vanaf €50</li>
+        <li>Haarmasker &amp; Verzorging: €20</li>
+        <li>Styling &amp; Finish: vanaf €15</li>
+    </ul>
+</section>
+
+<!-- Afspraak sectie -->
+<section class="appointment" id="afspraak">
+    <h2>Maak een afspraak</h2>
+    <p>Vul het formulier in of bel ons op <strong>0123-456789</strong> om direct een afspraak te maken.</p>
+    <form action="#" method="POST" class="appointment-form">
+        <label for="name">Naam</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Telefoonnummer</label>
+        <input type="text" id="phone" name="phone" required />
+
+        <label for="date">Datum</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="message">Opmerkingen</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit" class="btn-primary">Verstuur</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 AURA. Alle rechten voorbehouden.</p>
+</footer>
+</body>
+</html>
